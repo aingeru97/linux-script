@@ -1,5 +1,10 @@
 #!/bin/bash
+num1=600
+num2=66
 
-expr 1 + 2
+resultado=`expr ${num1} + ${num2}`
+
+echo La suma es: ${resultado}
+
 
 
